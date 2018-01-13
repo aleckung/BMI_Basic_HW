@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="advice_light">你該多吃點，不偏食。</string>
+    <string name="advice_average">身材很標準，繼續保持。</string>
+    <string name="advice_littleheavy">你有一點過重，可起來運動一下。</string>
+    <string name="advice_muchheavy">你該注意飲食了，記得多運動。</string>
+    <string name="advice_tooheavy">你該節食了，請保持運動習慣。</string>
+</resources>

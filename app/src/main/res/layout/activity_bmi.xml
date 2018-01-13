@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alec.bmi_basic.Bmi">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="499dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <TextView
+            android:id="@+id/textViewHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_height"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            tools:text="abc" />
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_weight"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            tools:text="輸入體重" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bmi_btn"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="計算結果" />
+
+        <TextView
+            android:id="@+id/textViewSuggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="評語" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
